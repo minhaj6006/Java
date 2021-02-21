@@ -3,4 +3,5 @@
     <fullyQualifiedTypeName name="jdk.vm.ci.meta.Local"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.StringJoiner"/>
+    <fullyQualifiedTypeName name="Book"/>
 </qualifiedTypeNameHistroy>

@@ -5,7 +5,6 @@ package sentimentAnalyzer;
 public class Practice {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 //		String review = "Haven't been here in years! Fantastic service and the food was delicious! "
 //					  + "Definetly will be a frequent flyer! Francisco was very attentive.";
 //		
@@ -21,11 +20,11 @@ public class Practice {
 //	     String str = joiner.toString();
 //	     System.out.println(str);
 
-		String str = "ambiance ambience atmosphere decor dessert ice cream desert food soup service management waiter waitress bartender staff server";
-		String[] arrOfStr = str.split(" ");
-
-		for (String a : arrOfStr)
-			System.out.println(a);
+//		String str = "ambiance ambience atmosphere decor dessert ice cream desert food soup service management waiter waitress bartender staff server";
+//		String[] arrOfStr = str.split(" ");
+//
+//		for (String a : arrOfStr)
+//			System.out.println(a);
 
 	}
 
