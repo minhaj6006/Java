@@ -1,3 +1,4 @@
+
 public class Doctor extends Staff {
 
 	private long doctorId;

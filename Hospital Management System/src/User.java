@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class User {
 
@@ -48,5 +49,20 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
+	
+	
+	public static void main(String[] args) {
+		
+		HealthInsurancePlan insurancePlan = new PlatinumPlan();
+		Patient patient = new Patient();
+		patient.setInsurancePlan(insurancePlan);
+		
+		double [] payments = Billing.computePaymentAmount(patient, 1000.0);
+		
+		System.out.println(Arrays.toString(payments));
+			
+	}
 }
+	
+	
+	
