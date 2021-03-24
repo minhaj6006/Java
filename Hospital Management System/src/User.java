@@ -1,23 +1,38 @@
-import java.util.Arrays;
 
 public class User {
 
 	private long id;
-	// add rest of the variables
 	private String firstName, 
-				   lastName, 
-				   gender, 
-				   email;
+		 		   lastName, 
+		 		   gender, 
+		 		   email;
+	private boolean insured;
+	private HealthInsurancePlan insurancePlan;
 
 	public long getId() {
 		return id;
+	}
+
+	public boolean isInsured() {
+		return insured;
+	}
+
+	public void setInsured(boolean insured) {
+		this.insured = insured;
+	}
+
+	public HealthInsurancePlan getInsurancePlan() {
+		return insurancePlan;
+	}
+
+	public void setInsurancePlan(HealthInsurancePlan insurancePlan) {
+		this.insurancePlan = insurancePlan;
 	}
 
 	public void setId(long id) {
 		this.id = id;
 	}
 
-	// add rest of the getters & setters
 	public String getFirstName() {
 		return firstName;
 	}
@@ -49,20 +64,5 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-	
-	public static void main(String[] args) {
-		
-		HealthInsurancePlan insurancePlan = new PlatinumPlan();
-		Patient patient = new Patient();
-		patient.setInsurancePlan(insurancePlan);
-		
-		double [] payments = Billing.computePaymentAmount(patient, 1000.0);
-		
-		System.out.println(Arrays.toString(payments));
-			
-	}
+
 }
-	
-	
-	

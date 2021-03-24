@@ -1,9 +1,8 @@
-
-public class HealthInsurancePlan extends Billing{
-    // Code for 'coverage' field goes here
+public class HealthInsurancePlan {
+	// Code for 'coverage' field goes here
 	private double coverage;
-    
-    // Don't worry about the below code and also the InsuranceBrand class
+
+	// Don't worry about the below code and also the InsuranceBrand class
 	private InsuranceBrand offeredBy;
 
 	public InsuranceBrand getOfferedBy() {

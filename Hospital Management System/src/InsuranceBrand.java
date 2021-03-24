@@ -1,4 +1,3 @@
-
 // You can ignore this class. It just represents an Insurance Company
 public class InsuranceBrand extends Billing {
 	private long id;

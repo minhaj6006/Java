@@ -1,8 +1,8 @@
-
 public class Staff extends User {
 
 	private long staffId;
 	private int yearOfExperience;
+	private double averageRating;
 	private String description;
 	private double salary;
 
@@ -22,6 +22,14 @@ public class Staff extends User {
 		this.yearOfExperience = yearOfExperience;
 	}
 
+	public double getAverageRating() {
+		return averageRating;
+	}
+
+	public void setAverageRating(double averageRating) {
+		this.averageRating = averageRating;
+	}
+
 	public String getDescription() {
 		return description;
 	}
@@ -37,4 +45,5 @@ public class Staff extends User {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
+
 }
