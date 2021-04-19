@@ -1,13 +1,27 @@
 
 public class User {
 
+	private int age;
+	
 	private long id;
+	
 	private String firstName, 
 		 		   lastName, 
 		 		   gender, 
 		 		   email;
-	private boolean insured;
+	
+	private boolean insured,
+					smoking;
+	
 	private HealthInsurancePlan insurancePlan;
+	
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
 
 	public long getId() {
 		return id;
@@ -19,6 +33,14 @@ public class User {
 
 	public void setInsured(boolean insured) {
 		this.insured = insured;
+	}
+
+	public boolean isSmoking() {
+		return smoking;
+	}
+
+	public void setSmoking(boolean smoking) {
+		this.smoking = smoking;
 	}
 
 	public HealthInsurancePlan getInsurancePlan() {

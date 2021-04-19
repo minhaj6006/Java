@@ -1,8 +1,7 @@
-public class HealthInsurancePlan {
-	// Code for 'coverage' field goes here
+public abstract class HealthInsurancePlan {
+
 	private double coverage;
 
-	// Don't worry about the below code and also the InsuranceBrand class
 	private InsuranceBrand offeredBy;
 
 	public InsuranceBrand getOfferedBy() {
@@ -20,4 +19,6 @@ public class HealthInsurancePlan {
 	public void setCoverage(double coverage) {
 		this.coverage = coverage;
 	}
+	
+	public abstract double computeMonthlyPremium(double salary, int age, boolean smoking); 
 }
