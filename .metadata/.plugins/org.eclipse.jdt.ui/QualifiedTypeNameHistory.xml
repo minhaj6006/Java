@@ -23,16 +23,22 @@
     <fullyQualifiedTypeName name="com.thrillio.entities.WebLink"/>
     <fullyQualifiedTypeName name="com.thrillio.managers.UserManager"/>
     <fullyQualifiedTypeName name="com.thrillio.constants.Gender"/>
-    <fullyQualifiedTypeName name="com.thrillio.constants.UserType"/>
     <fullyQualifiedTypeName name="com.thrillio.entities.Movie"/>
-    <fullyQualifiedTypeName name="com.thrillio.constants.MovieGenre"/>
-    <fullyQualifiedTypeName name="com.thrillio.constants.BookGenre"/>
     <fullyQualifiedTypeName name="com.thrillio.dao.UserDao"/>
     <fullyQualifiedTypeName name="com.thrillio.dao.BookmarkDao"/>
     <fullyQualifiedTypeName name="com.thrillio.entities.User"/>
     <fullyQualifiedTypeName name="com.thrillio.entities.Bookmark"/>
-    <fullyQualifiedTypeName name="com.thrillio.controllers.BookmarkController"/>
     <fullyQualifiedTypeName name="com.thrillio.managers.BookmarkManager"/>
     <fullyQualifiedTypeName name="com.thrillio.entities.UserBookmark"/>
     <fullyQualifiedTypeName name="com.thrillio.DataStore"/>
+    <fullyQualifiedTypeName name="com.thrillio.constants.MovieGenre"/>
+    <fullyQualifiedTypeName name="com.thrillio.constants.BookGenre"/>
+    <fullyQualifiedTypeName name="com.thrillio.constants.UserType"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
+    <fullyQualifiedTypeName name="com.thrillio.constants.KidFriendlyStatus"/>
+    <fullyQualifiedTypeName name="com.thrillio.partner.Shareable"/>
+    <fullyQualifiedTypeName name="com.thrillio.controllers.BookmarkController"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.StringUtils"/>
 </qualifiedTypeNameHistroy>
